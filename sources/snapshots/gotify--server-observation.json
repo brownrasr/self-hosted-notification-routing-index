@@ -1,0 +1,38 @@
+{
+  "repository": "gotify/server",
+  "checked_at": "2026-11-21T21:17:10.624267+08:00",
+  "revision": "912af9f37414ab08fae0cfcc3941c4fd95c183aa",
+  "branch": "master",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/gotify/server.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/master\tHEAD\n912af9f37414ab08fae0cfcc3941c4fd95c183aa\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/gotify/server/912af9f37414ab08fae0cfcc3941c4fd95c183aa/README.md",
+      "final_url": "https://raw.githubusercontent.com/gotify/server/912af9f37414ab08fae0cfcc3941c4fd95c183aa/README.md",
+      "path": "sources/snapshots/gotify--server-readme.txt",
+      "sha256": "d599461d213af6634dd8b7e57282e794eabbbcee66c3fe6eaa298c4654953a03",
+      "http_status": 200,
+      "line_count": 68,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/gotify/server/912af9f37414ab08fae0cfcc3941c4fd95c183aa/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/gotify/server/912af9f37414ab08fae0cfcc3941c4fd95c183aa/LICENSE",
+      "path": "sources/snapshots/gotify--server-license.txt",
+      "sha256": "82b75f7d50d903a2071a69a37591fe034d064cf419ddf67112bd583ae6d9602c",
+      "http_status": 200,
+      "line_count": 26,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

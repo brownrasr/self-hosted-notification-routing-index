@@ -1,0 +1,38 @@
+{
+  "repository": "caronc/apprise-api",
+  "checked_at": "2026-11-21T21:17:11.784605+08:00",
+  "revision": "c83b54bf39171cfb0c4ee3339cfa6b34b7b3e82d",
+  "branch": "master",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/caronc/apprise-api.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/master\tHEAD\nc83b54bf39171cfb0c4ee3339cfa6b34b7b3e82d\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/caronc/apprise-api/c83b54bf39171cfb0c4ee3339cfa6b34b7b3e82d/README.md",
+      "final_url": "https://raw.githubusercontent.com/caronc/apprise-api/c83b54bf39171cfb0c4ee3339cfa6b34b7b3e82d/README.md",
+      "path": "sources/snapshots/caronc--apprise-api-readme.txt",
+      "sha256": "9ec35ee48ba08189bb2ea6cd2c90c9dbf17271ed2f395c0a25a096f5496a9bdb",
+      "http_status": 200,
+      "line_count": 1510,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/caronc/apprise-api/c83b54bf39171cfb0c4ee3339cfa6b34b7b3e82d/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/caronc/apprise-api/c83b54bf39171cfb0c4ee3339cfa6b34b7b3e82d/LICENSE",
+      "path": "sources/snapshots/caronc--apprise-api-license.txt",
+      "sha256": "e7205a8afb929a4aafb4272f974eee8d61fae30fbd2e6c24d12420adf2488506",
+      "http_status": 200,
+      "line_count": 21,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

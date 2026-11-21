@@ -1,0 +1,38 @@
+{
+  "repository": "Finb/bark-server",
+  "checked_at": "2026-11-21T21:17:15.180483+08:00",
+  "revision": "a365aa9ddc9362495efffb3db4358b7c12beb963",
+  "branch": "master",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/Finb/bark-server.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/master\tHEAD\na365aa9ddc9362495efffb3db4358b7c12beb963\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/Finb/bark-server/a365aa9ddc9362495efffb3db4358b7c12beb963/README.md",
+      "final_url": "https://raw.githubusercontent.com/Finb/bark-server/a365aa9ddc9362495efffb3db4358b7c12beb963/README.md",
+      "path": "sources/snapshots/finb--bark-server-readme.txt",
+      "sha256": "1eabd94bd33321b6cb05b27eefab3c2f84928ae3f6a7ceba5b2dee8e2354b63c",
+      "http_status": 200,
+      "line_count": 72,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/Finb/bark-server/a365aa9ddc9362495efffb3db4358b7c12beb963/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/Finb/bark-server/a365aa9ddc9362495efffb3db4358b7c12beb963/LICENSE",
+      "path": "sources/snapshots/finb--bark-server-license.txt",
+      "sha256": "ef358c0a323f12f2e0fdd811705e084f5be70e81d4bf451d1cb30b9322188a74",
+      "http_status": 200,
+      "line_count": 21,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

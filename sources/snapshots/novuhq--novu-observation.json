@@ -1,0 +1,38 @@
+{
+  "repository": "novuhq/novu",
+  "checked_at": "2026-11-21T21:17:15.534443+08:00",
+  "revision": "ced3a4569dde75c77d238f0b736ecdb83156cbef",
+  "branch": "next",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/novuhq/novu.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/next\tHEAD\nced3a4569dde75c77d238f0b736ecdb83156cbef\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/novuhq/novu/ced3a4569dde75c77d238f0b736ecdb83156cbef/README.md",
+      "final_url": "https://raw.githubusercontent.com/novuhq/novu/ced3a4569dde75c77d238f0b736ecdb83156cbef/README.md",
+      "path": "sources/snapshots/novuhq--novu-readme.txt",
+      "sha256": "1e3f2e1690ac106e44b24f4adb74968e27ddba73c083003f1ae97c610448fe3d",
+      "http_status": 200,
+      "line_count": 288,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/novuhq/novu/ced3a4569dde75c77d238f0b736ecdb83156cbef/LICENSE-MIT",
+      "final_url": "https://raw.githubusercontent.com/novuhq/novu/ced3a4569dde75c77d238f0b736ecdb83156cbef/LICENSE-MIT",
+      "path": "sources/snapshots/novuhq--novu-license.txt",
+      "sha256": "2a9fe38f8e0f785b220a80affffa87aa41381c2c0714760d69f00d5990253fe2",
+      "http_status": 200,
+      "line_count": 21,
+      "upstream_filename": "LICENSE-MIT"
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,38 @@
+{
+  "repository": "alerta/alerta",
+  "checked_at": "2026-11-21T21:17:20.503919+08:00",
+  "revision": "4ac0106300cd428b26ad4b373cf4a78f55f6b542",
+  "branch": "master",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/alerta/alerta.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/master\tHEAD\n4ac0106300cd428b26ad4b373cf4a78f55f6b542\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/alerta/alerta/4ac0106300cd428b26ad4b373cf4a78f55f6b542/README.md",
+      "final_url": "https://raw.githubusercontent.com/alerta/alerta/4ac0106300cd428b26ad4b373cf4a78f55f6b542/README.md",
+      "path": "sources/snapshots/alerta--alerta-readme.txt",
+      "sha256": "9db53623a0e5ba91c19e1786ae0b14216523b692ce3b94d56dece25460e3afb6",
+      "http_status": 200,
+      "line_count": 150,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/alerta/alerta/4ac0106300cd428b26ad4b373cf4a78f55f6b542/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/alerta/alerta/4ac0106300cd428b26ad4b373cf4a78f55f6b542/LICENSE",
+      "path": "sources/snapshots/alerta--alerta-license.txt",
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "http_status": 200,
+      "line_count": 201,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,1206 @@
+{
+  "repository": "self-hosted-notification-routing-index",
+  "checked_on": "2026-11-21",
+  "language": "en",
+  "policy": "Commit-frozen original upstream documents with located short claims. HEAD availability is identity evidence, not a maintenance verdict.",
+  "sources": [
+    {
+      "name": "ntfy",
+      "repository": "binwiederhier/ntfy",
+      "url": "https://github.com/binwiederhier/ntfy",
+      "clone_url": "https://github.com/binwiederhier/ntfy.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:17:09.473074+08:00",
+      "version_or_commit": "18c15d706595587c45bd1e773e3f828f2ff6cf8d",
+      "branch_at_observation": "main",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/binwiederhier/ntfy/18c15d706595587c45bd1e773e3f828f2ff6cf8d/README.md",
+          "final_url": "https://raw.githubusercontent.com/binwiederhier/ntfy/18c15d706595587c45bd1e773e3f828f2ff6cf8d/README.md",
+          "path": "sources/snapshots/binwiederhier--ntfy-readme.txt",
+          "sha256": "21bf864495bb1ec5bd7c0bd6f48e95fb9f4f6dcbe2644e94197e53ab8ba4fc08",
+          "http_status": 200,
+          "line_count": 368,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/binwiederhier/ntfy/18c15d706595587c45bd1e773e3f828f2ff6cf8d/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/binwiederhier/ntfy/18c15d706595587c45bd1e773e3f828f2ff6cf8d/LICENSE",
+          "path": "sources/snapshots/binwiederhier--ntfy-license.txt",
+          "sha256": "41c6b5205cdb17128b6d003732c48e1d1cdf1080160fc8ac8dc9d992dd8dc398",
+          "http_status": 200,
+          "line_count": 201,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/binwiederhier/ntfy.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/main\tHEAD\n18c15d706595587c45bd1e773e3f828f2ff6cf8d\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "binwiederhier--ntfy-axis-1",
+          "field": "decision_axis_1",
+          "statement": "ntfy (pronounced \"notify\") is a simple HTTP-based pub-sub",
+          "upstream_url": "https://raw.githubusercontent.com/binwiederhier/ntfy/18c15d706595587c45bd1e773e3f828f2ff6cf8d/README.md",
+          "version_or_commit": "18c15d706595587c45bd1e773e3f828f2ff6cf8d",
+          "checked_at": "2026-11-21T21:17:09.473074+08:00",
+          "snapshot_path": "sources/snapshots/binwiederhier--ntfy-readme.txt",
+          "line_start": 15,
+          "line_end": 15,
+          "upstream_excerpt": "**ntfy** (pronounced \"*notify*\") is a simple HTTP-based [pub-sub](https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern) ",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "binwiederhier--ntfy-axis-3",
+          "field": "decision_axis_3",
+          "statement": "Dexie.js (Apache 2.0) is used for web app persistence in IndexedDB",
+          "upstream_url": "https://raw.githubusercontent.com/binwiederhier/ntfy/18c15d706595587c45bd1e773e3f828f2ff6cf8d/README.md",
+          "version_or_commit": "18c15d706595587c45bd1e773e3f828f2ff6cf8d",
+          "checked_at": "2026-11-21T21:17:09.473074+08:00",
+          "snapshot_path": "sources/snapshots/binwiederhier--ntfy-readme.txt",
+          "line_start": 354,
+          "line_end": 354,
+          "upstream_excerpt": "* [Dexie.js](https://github.com/dexie/Dexie.js) (Apache 2.0) is used for web app persistence in IndexedDB",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "binwiederhier--ntfy-license",
+          "field": "license_model",
+          "statement": "Apache-2.0 or GPL-2.0 depending on component; verify repository files",
+          "upstream_url": "https://raw.githubusercontent.com/binwiederhier/ntfy/18c15d706595587c45bd1e773e3f828f2ff6cf8d/LICENSE",
+          "version_or_commit": "18c15d706595587c45bd1e773e3f828f2ff6cf8d",
+          "checked_at": "2026-11-21T21:17:09.473074+08:00",
+          "snapshot_path": "sources/snapshots/binwiederhier--ntfy-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n\n      \"Licensor\" shall mean the copyright owner or entity authorized by",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/binwiederhier--ntfy-observation.json"
+    },
+    {
+      "name": "Gotify",
+      "repository": "gotify/server",
+      "url": "https://github.com/gotify/server",
+      "clone_url": "https://github.com/gotify/server.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:17:10.624267+08:00",
+      "version_or_commit": "912af9f37414ab08fae0cfcc3941c4fd95c183aa",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/gotify/server/912af9f37414ab08fae0cfcc3941c4fd95c183aa/README.md",
+          "final_url": "https://raw.githubusercontent.com/gotify/server/912af9f37414ab08fae0cfcc3941c4fd95c183aa/README.md",
+          "path": "sources/snapshots/gotify--server-readme.txt",
+          "sha256": "d599461d213af6634dd8b7e57282e794eabbbcee66c3fe6eaa298c4654953a03",
+          "http_status": 200,
+          "line_count": 68,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/gotify/server/912af9f37414ab08fae0cfcc3941c4fd95c183aa/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/gotify/server/912af9f37414ab08fae0cfcc3941c4fd95c183aa/LICENSE",
+          "path": "sources/snapshots/gotify--server-license.txt",
+          "sha256": "82b75f7d50d903a2071a69a37591fe034d064cf419ddf67112bd583ae6d9602c",
+          "http_status": 200,
+          "line_count": 26,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/gotify/server.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\n912af9f37414ab08fae0cfcc3941c4fd95c183aa\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "gotify--server-axis-1",
+          "field": "decision_axis_1",
+          "statement": "send messages via REST-API receive messages via WebSocket manage users, clients and applications Plugins",
+          "upstream_url": "https://raw.githubusercontent.com/gotify/server/912af9f37414ab08fae0cfcc3941c4fd95c183aa/README.md",
+          "version_or_commit": "912af9f37414ab08fae0cfcc3941c4fd95c183aa",
+          "checked_at": "2026-11-21T21:17:10.624267+08:00",
+          "snapshot_path": "sources/snapshots/gotify--server-readme.txt",
+          "line_start": 34,
+          "line_end": 37,
+          "upstream_excerpt": "* send messages via REST-API\n* receive messages via WebSocket\n* manage users, clients and applications\n* [Plugins](https://gotify.net/docs/plugin)",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "gotify--server-license",
+          "field": "license_model",
+          "statement": "MIT",
+          "upstream_url": "https://raw.githubusercontent.com/gotify/server/912af9f37414ab08fae0cfcc3941c4fd95c183aa/LICENSE",
+          "version_or_commit": "912af9f37414ab08fae0cfcc3941c4fd95c183aa",
+          "checked_at": "2026-11-21T21:17:10.624267+08:00",
+          "snapshot_path": "sources/snapshots/gotify--server-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "MIT License\n\nCopyright (c) 2018 jmattheis\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/gotify--server-observation.json"
+    },
+    {
+      "name": "Apprise API",
+      "repository": "caronc/apprise-api",
+      "url": "https://github.com/caronc/apprise-api",
+      "clone_url": "https://github.com/caronc/apprise-api.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:17:11.784605+08:00",
+      "version_or_commit": "c83b54bf39171cfb0c4ee3339cfa6b34b7b3e82d",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/caronc/apprise-api/c83b54bf39171cfb0c4ee3339cfa6b34b7b3e82d/README.md",
+          "final_url": "https://raw.githubusercontent.com/caronc/apprise-api/c83b54bf39171cfb0c4ee3339cfa6b34b7b3e82d/README.md",
+          "path": "sources/snapshots/caronc--apprise-api-readme.txt",
+          "sha256": "9ec35ee48ba08189bb2ea6cd2c90c9dbf17271ed2f395c0a25a096f5496a9bdb",
+          "http_status": 200,
+          "line_count": 1510,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/caronc/apprise-api/c83b54bf39171cfb0c4ee3339cfa6b34b7b3e82d/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/caronc/apprise-api/c83b54bf39171cfb0c4ee3339cfa6b34b7b3e82d/LICENSE",
+          "path": "sources/snapshots/caronc--apprise-api-license.txt",
+          "sha256": "e7205a8afb929a4aafb4272f974eee8d61fae30fbd2e6c24d12420adf2488506",
+          "http_status": 200,
+          "line_count": 21,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/caronc/apprise-api.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\nc83b54bf39171cfb0c4ee3339cfa6b34b7b3e82d\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "caronc--apprise-api-axis-1",
+          "field": "decision_axis_1",
+          "statement": "Take advantage of Apprise through your network with a user-friendly API.",
+          "upstream_url": "https://raw.githubusercontent.com/caronc/apprise-api/c83b54bf39171cfb0c4ee3339cfa6b34b7b3e82d/README.md",
+          "version_or_commit": "c83b54bf39171cfb0c4ee3339cfa6b34b7b3e82d",
+          "checked_at": "2026-11-21T21:17:11.784605+08:00",
+          "snapshot_path": "sources/snapshots/caronc--apprise-api-readme.txt",
+          "line_start": 3,
+          "line_end": 3,
+          "upstream_excerpt": "Take advantage of [Apprise](https://github.com/caronc/apprise) through your network with a user-friendly API.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "caronc--apprise-api-axis-2",
+          "field": "decision_axis_2",
+          "statement": "- Group your services with tags, then notify only the ones that need to know.",
+          "upstream_url": "https://raw.githubusercontent.com/caronc/apprise-api/c83b54bf39171cfb0c4ee3339cfa6b34b7b3e82d/README.md",
+          "version_or_commit": "c83b54bf39171cfb0c4ee3339cfa6b34b7b3e82d",
+          "checked_at": "2026-11-21T21:17:11.784605+08:00",
+          "snapshot_path": "sources/snapshots/caronc--apprise-api-readme.txt",
+          "line_start": 9,
+          "line_end": 9,
+          "upstream_excerpt": "- Group your services with tags, then notify only the ones that need to know.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "caronc--apprise-api-axis-3",
+          "field": "decision_axis_3",
+          "statement": "- There are no additional dependencies (such as database requirements, etc) should you choose to use the optional persistent store (mounted as /config).",
+          "upstream_url": "https://raw.githubusercontent.com/caronc/apprise-api/c83b54bf39171cfb0c4ee3339cfa6b34b7b3e82d/README.md",
+          "version_or_commit": "c83b54bf39171cfb0c4ee3339cfa6b34b7b3e82d",
+          "checked_at": "2026-11-21T21:17:11.784605+08:00",
+          "snapshot_path": "sources/snapshots/caronc--apprise-api-readme.txt",
+          "line_start": 737,
+          "line_end": 737,
+          "upstream_excerpt": "- There are no additional dependencies (such as database requirements, etc) should you choose to use the optional persistent store (mounted as `/config`).",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "caronc--apprise-api-license",
+          "field": "license_model",
+          "statement": "MIT",
+          "upstream_url": "https://raw.githubusercontent.com/caronc/apprise-api/c83b54bf39171cfb0c4ee3339cfa6b34b7b3e82d/LICENSE",
+          "version_or_commit": "c83b54bf39171cfb0c4ee3339cfa6b34b7b3e82d",
+          "checked_at": "2026-11-21T21:17:11.784605+08:00",
+          "snapshot_path": "sources/snapshots/caronc--apprise-api-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "MIT License\n\nCopyright (c) 2026 Chris Caron <lead2gold@gmail.com>\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/caronc--apprise-api-observation.json"
+    },
+    {
+      "name": "Novu",
+      "repository": "novuhq/novu",
+      "url": "https://github.com/novuhq/novu",
+      "clone_url": "https://github.com/novuhq/novu.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:17:15.534443+08:00",
+      "version_or_commit": "ced3a4569dde75c77d238f0b736ecdb83156cbef",
+      "branch_at_observation": "next",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/novuhq/novu/ced3a4569dde75c77d238f0b736ecdb83156cbef/README.md",
+          "final_url": "https://raw.githubusercontent.com/novuhq/novu/ced3a4569dde75c77d238f0b736ecdb83156cbef/README.md",
+          "path": "sources/snapshots/novuhq--novu-readme.txt",
+          "sha256": "1e3f2e1690ac106e44b24f4adb74968e27ddba73c083003f1ae97c610448fe3d",
+          "http_status": 200,
+          "line_count": 288,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/novuhq/novu/ced3a4569dde75c77d238f0b736ecdb83156cbef/LICENSE-MIT",
+          "final_url": "https://raw.githubusercontent.com/novuhq/novu/ced3a4569dde75c77d238f0b736ecdb83156cbef/LICENSE-MIT",
+          "path": "sources/snapshots/novuhq--novu-license.txt",
+          "sha256": "2a9fe38f8e0f785b220a80affffa87aa41381c2c0714760d69f00d5990253fe2",
+          "http_status": 200,
+          "line_count": 21,
+          "upstream_filename": "LICENSE-MIT"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/novuhq/novu.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/next\tHEAD\nced3a4569dde75c77d238f0b736ecdb83156cbef\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "novuhq--novu-axis-1",
+          "field": "decision_axis_1",
+          "statement": "Create a free account and follow the instructions on the dashboard.",
+          "upstream_url": "https://raw.githubusercontent.com/novuhq/novu/ced3a4569dde75c77d238f0b736ecdb83156cbef/README.md",
+          "version_or_commit": "ced3a4569dde75c77d238f0b736ecdb83156cbef",
+          "checked_at": "2026-11-21T21:17:15.534443+08:00",
+          "snapshot_path": "sources/snapshots/novuhq--novu-readme.txt",
+          "line_start": 75,
+          "line_end": 75,
+          "upstream_excerpt": "[Create a free account](https://go.novu.co/dashboard?utm_source=github&utm_medium=readme&utm_campaign=create-free-account-link) and follow the instructions on the dashboard.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "novuhq--novu-axis-2",
+          "field": "decision_axis_2",
+          "statement": "Novu provides a unified API to send notifications through multiple channels \u2014 Inbox/In-App, Push, Email, SMS, and Chat. Create custom workflows, define per-channel conditions, and let Novu deliver eac\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/novuhq/novu/ced3a4569dde75c77d238f0b736ecdb83156cbef/README.md",
+          "version_or_commit": "ced3a4569dde75c77d238f0b736ecdb83156cbef",
+          "checked_at": "2026-11-21T21:17:15.534443+08:00",
+          "snapshot_path": "sources/snapshots/novuhq--novu-readme.txt",
+          "line_start": 90,
+          "line_end": 90,
+          "upstream_excerpt": "Novu provides a unified API to send notifications through multiple channels \u2014 **Inbox/In-App, Push, Email, SMS, and Chat**. Create custom workflows, define per-channel conditions, and let Novu deliver each notification in the most effective way, without stitching together a provider for every channel yourself.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "novuhq--novu-axis-3",
+          "field": "decision_axis_3",
+          "statement": "Every product and every agent eventually needs to talk to people, across the channels those people already use. Novu is the open-source layer that handles that communication for you, so you don't rebu\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/novuhq/novu/ced3a4569dde75c77d238f0b736ecdb83156cbef/README.md",
+          "version_or_commit": "ced3a4569dde75c77d238f0b736ecdb83156cbef",
+          "checked_at": "2026-11-21T21:17:15.534443+08:00",
+          "snapshot_path": "sources/snapshots/novuhq--novu-readme.txt",
+          "line_start": 66,
+          "line_end": 66,
+          "upstream_excerpt": "Every product and every agent eventually needs to talk to people, across the channels those people already use. Novu is the open-source layer that handles that communication for you, so you don't rebuild Inbox feeds, provider integrations, and channel webhooks from scratch every time.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "novuhq--novu-license-edition",
+          "field": "license_model",
+          "statement": "MIT core; /enterprise and subdirectories use a commercial license",
+          "upstream_url": "https://raw.githubusercontent.com/novuhq/novu/ced3a4569dde75c77d238f0b736ecdb83156cbef/README.md",
+          "version_or_commit": "ced3a4569dde75c77d238f0b736ecdb83156cbef",
+          "checked_at": "2026-11-21T21:17:15.534443+08:00",
+          "snapshot_path": "sources/snapshots/novuhq--novu-readme.txt",
+          "line_start": 274,
+          "line_end": 274,
+          "upstream_excerpt": "Novu is a commercial open source company, which means some parts of this open source repository require a commercial license. The concept is called \"Open Core,\" where the core technology is fully open source, licensed under MIT license, and the enterprise code is covered under a commercial license (\"/enterprise\" Enterprise Edition). Enterprise features are built by the core engineering team of Novu which is hired in full-time.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "novuhq--novu-license",
+          "field": "license_model",
+          "statement": "MIT core; /enterprise and subdirectories use a commercial license",
+          "upstream_url": "https://raw.githubusercontent.com/novuhq/novu/ced3a4569dde75c77d238f0b736ecdb83156cbef/LICENSE-MIT",
+          "version_or_commit": "ced3a4569dde75c77d238f0b736ecdb83156cbef",
+          "checked_at": "2026-11-21T21:17:15.534443+08:00",
+          "snapshot_path": "sources/snapshots/novuhq--novu-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "MIT License\n\nCopyright (c) 2019 Noti-fire Apps Ltd.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/novuhq--novu-observation.json"
+    },
+    {
+      "name": "Shoutrrr",
+      "repository": "containrrr/shoutrrr",
+      "url": "https://github.com/containrrr/shoutrrr",
+      "clone_url": "https://github.com/containrrr/shoutrrr.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:17:14.994632+08:00",
+      "version_or_commit": "ccf81390b700948f85ce1c79f6de9ee75c68d9e5",
+      "branch_at_observation": "main",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/containrrr/shoutrrr/ccf81390b700948f85ce1c79f6de9ee75c68d9e5/README.md",
+          "final_url": "https://raw.githubusercontent.com/containrrr/shoutrrr/ccf81390b700948f85ce1c79f6de9ee75c68d9e5/README.md",
+          "path": "sources/snapshots/containrrr--shoutrrr-readme.txt",
+          "sha256": "921339c68a6c8c26430edc827e3fc68849240380d351541ca151f78827881a57",
+          "http_status": 200,
+          "line_count": 157,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/containrrr/shoutrrr/ccf81390b700948f85ce1c79f6de9ee75c68d9e5/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/containrrr/shoutrrr/ccf81390b700948f85ce1c79f6de9ee75c68d9e5/LICENSE",
+          "path": "sources/snapshots/containrrr--shoutrrr-license.txt",
+          "sha256": "909cd1d55dcb50fe7f9e386b564cae74bdb6c25fbc1e90f14af32c91fa52325d",
+          "http_status": 200,
+          "line_count": 21,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/containrrr/shoutrrr.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/main\tHEAD\nccf81390b700948f85ce1c79f6de9ee75c68d9e5\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "containrrr--shoutrrr-axis-1",
+          "field": "decision_axis_1",
+          "statement": "For additional details, visit the full documentation.",
+          "upstream_url": "https://raw.githubusercontent.com/containrrr/shoutrrr/ccf81390b700948f85ce1c79f6de9ee75c68d9e5/README.md",
+          "version_or_commit": "ccf81390b700948f85ce1c79f6de9ee75c68d9e5",
+          "checked_at": "2026-11-21T21:17:14.994632+08:00",
+          "snapshot_path": "sources/snapshots/containrrr--shoutrrr-readme.txt",
+          "line_start": 117,
+          "line_end": 117,
+          "upstream_excerpt": "For additional details, visit the [full documentation](https://containrrr.dev/shoutrrr). ",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "containrrr--shoutrrr-axis-2",
+          "field": "decision_axis_2",
+          "statement": "You can also use Shoutrrr from a GitHub Actions workflow.",
+          "upstream_url": "https://raw.githubusercontent.com/containrrr/shoutrrr/ccf81390b700948f85ce1c79f6de9ee75c68d9e5/README.md",
+          "version_or_commit": "ccf81390b700948f85ce1c79f6de9ee75c68d9e5",
+          "checked_at": "2026-11-21T21:17:14.994632+08:00",
+          "snapshot_path": "sources/snapshots/containrrr--shoutrrr-readme.txt",
+          "line_start": 90,
+          "line_end": 90,
+          "upstream_excerpt": "You can also use Shoutrrr from a GitHub Actions workflow.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "containrrr--shoutrrr-license",
+          "field": "license_model",
+          "statement": "MIT",
+          "upstream_url": "https://raw.githubusercontent.com/containrrr/shoutrrr/ccf81390b700948f85ce1c79f6de9ee75c68d9e5/LICENSE",
+          "version_or_commit": "ccf81390b700948f85ce1c79f6de9ee75c68d9e5",
+          "checked_at": "2026-11-21T21:17:14.994632+08:00",
+          "snapshot_path": "sources/snapshots/containrrr--shoutrrr-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "MIT License\n\nCopyright (c) 2019 Containrrr\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/containrrr--shoutrrr-observation.json"
+    },
+    {
+      "name": "Bark Server",
+      "repository": "Finb/bark-server",
+      "url": "https://github.com/Finb/bark-server",
+      "clone_url": "https://github.com/Finb/bark-server.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:17:15.180483+08:00",
+      "version_or_commit": "a365aa9ddc9362495efffb3db4358b7c12beb963",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/Finb/bark-server/a365aa9ddc9362495efffb3db4358b7c12beb963/README.md",
+          "final_url": "https://raw.githubusercontent.com/Finb/bark-server/a365aa9ddc9362495efffb3db4358b7c12beb963/README.md",
+          "path": "sources/snapshots/finb--bark-server-readme.txt",
+          "sha256": "1eabd94bd33321b6cb05b27eefab3c2f84928ae3f6a7ceba5b2dee8e2354b63c",
+          "http_status": 200,
+          "line_count": 72,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/Finb/bark-server/a365aa9ddc9362495efffb3db4358b7c12beb963/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/Finb/bark-server/a365aa9ddc9362495efffb3db4358b7c12beb963/LICENSE",
+          "path": "sources/snapshots/finb--bark-server-license.txt",
+          "sha256": "ef358c0a323f12f2e0fdd811705e084f5be70e81d4bf451d1cb30b9322188a74",
+          "http_status": 200,
+          "line_count": 21,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/Finb/bark-server.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\na365aa9ddc9362495efffb3db4358b7c12beb963\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "finb--bark-server-axis-1",
+          "field": "decision_axis_1",
+          "statement": "Bark is an iOS App which allows you to push customed notifications to your iPhone.",
+          "upstream_url": "https://raw.githubusercontent.com/Finb/bark-server/a365aa9ddc9362495efffb3db4358b7c12beb963/README.md",
+          "version_or_commit": "a365aa9ddc9362495efffb3db4358b7c12beb963",
+          "checked_at": "2026-11-21T21:17:15.180483+08:00",
+          "snapshot_path": "sources/snapshots/finb--bark-server-readme.txt",
+          "line_start": 5,
+          "line_end": 5,
+          "upstream_excerpt": "[Bark](https://github.com/Finb/Bark) is an iOS App which allows you to push customed notifications to your iPhone.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "finb--bark-server-axis-3",
+          "field": "decision_axis_3",
+          "statement": "Just run the server with -dsn=user:pass@tcp(mysqlhost)/bark, it will use MySQL instead of file database Bbolt",
+          "upstream_url": "https://raw.githubusercontent.com/Finb/bark-server/a365aa9ddc9362495efffb3db4358b7c12beb963/README.md",
+          "version_or_commit": "a365aa9ddc9362495efffb3db4358b7c12beb963",
+          "checked_at": "2026-11-21T21:17:15.180483+08:00",
+          "snapshot_path": "sources/snapshots/finb--bark-server-readme.txt",
+          "line_start": 66,
+          "line_end": 66,
+          "upstream_excerpt": "Just run the server with `-dsn=user:pass@tcp(mysql_host)/bark`, it will use MySQL instead of file database Bbolt",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "finb--bark-server-license",
+          "field": "license_model",
+          "statement": "MIT",
+          "upstream_url": "https://raw.githubusercontent.com/Finb/bark-server/a365aa9ddc9362495efffb3db4358b7c12beb963/LICENSE",
+          "version_or_commit": "a365aa9ddc9362495efffb3db4358b7c12beb963",
+          "checked_at": "2026-11-21T21:17:15.180483+08:00",
+          "snapshot_path": "sources/snapshots/finb--bark-server-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "MIT License\n\nCopyright (c) 2018 Feng\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/finb--bark-server-observation.json"
+    },
+    {
+      "name": "Notifo",
+      "repository": "notifo-io/notifo",
+      "url": "https://github.com/notifo-io/notifo",
+      "clone_url": "https://github.com/notifo-io/notifo.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:17:16.505223+08:00",
+      "version_or_commit": "54da324ff6f4c51ca959751bdc6572e20c10a6e4",
+      "branch_at_observation": "main",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/notifo-io/notifo/54da324ff6f4c51ca959751bdc6572e20c10a6e4/README.md",
+          "final_url": "https://raw.githubusercontent.com/notifo-io/notifo/54da324ff6f4c51ca959751bdc6572e20c10a6e4/README.md",
+          "path": "sources/snapshots/notifo-io--notifo-readme.txt",
+          "sha256": "ad056a9b6bd8757b85735ce662581c5f8021b11975a02994619b22202743026b",
+          "http_status": 200,
+          "line_count": 163,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/notifo-io/notifo/54da324ff6f4c51ca959751bdc6572e20c10a6e4/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/notifo-io/notifo/54da324ff6f4c51ca959751bdc6572e20c10a6e4/LICENSE",
+          "path": "sources/snapshots/notifo-io--notifo-license.txt",
+          "sha256": "93b5ff766b2df011892d4ed661805fca4f967955e415b4572416bc9af5a7d6b1",
+          "http_status": 200,
+          "line_count": 21,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/notifo-io/notifo.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/main\tHEAD\n54da324ff6f4c51ca959751bdc6572e20c10a6e4\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "notifo-io--notifo-axis-1",
+          "field": "decision_axis_1",
+          "statement": "Have a look at the presentation for a visual explanation, or read docs/architecture.md for the technical one.",
+          "upstream_url": "https://raw.githubusercontent.com/notifo-io/notifo/54da324ff6f4c51ca959751bdc6572e20c10a6e4/README.md",
+          "version_or_commit": "54da324ff6f4c51ca959751bdc6572e20c10a6e4",
+          "checked_at": "2026-11-21T21:17:16.505223+08:00",
+          "snapshot_path": "sources/snapshots/notifo-io--notifo-readme.txt",
+          "line_start": 67,
+          "line_end": 67,
+          "upstream_excerpt": "Have a look at the [presentation](https://github.com/notifo-io/notifo/raw/main/media/notifo!.pdf) for a visual explanation, or read [docs/architecture.md](docs/architecture.md) for the technical one.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "notifo-io--notifo-axis-2",
+          "field": "decision_axis_2",
+          "statement": "Abstraction over multiple channels and providers. Reliable through retry mechanisms and message queues for all notifications and channels.",
+          "upstream_url": "https://raw.githubusercontent.com/notifo-io/notifo/54da324ff6f4c51ca959751bdc6572e20c10a6e4/README.md",
+          "version_or_commit": "54da324ff6f4c51ca959751bdc6572e20c10a6e4",
+          "checked_at": "2026-11-21T21:17:16.505223+08:00",
+          "snapshot_path": "sources/snapshots/notifo-io--notifo-readme.txt",
+          "line_start": 29,
+          "line_end": 30,
+          "upstream_excerpt": "* Abstraction over multiple channels and providers.\n* Reliable through retry mechanisms and message queues for all notifications and channels.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "notifo-io--notifo-axis-3",
+          "field": "decision_axis_3",
+          "statement": "a Docker image of Notifo, with one compose file per supported database. See CLAUDE.md for the conventions this repository follows.",
+          "upstream_url": "https://raw.githubusercontent.com/notifo-io/notifo/54da324ff6f4c51ca959751bdc6572e20c10a6e4/README.md",
+          "version_or_commit": "54da324ff6f4c51ca959751bdc6572e20c10a6e4",
+          "checked_at": "2026-11-21T21:17:16.505223+08:00",
+          "snapshot_path": "sources/snapshots/notifo-io--notifo-readme.txt",
+          "line_start": 141,
+          "line_end": 142,
+          "upstream_excerpt": "a Docker image of Notifo, with one compose file per supported database. See\n[CLAUDE.md](CLAUDE.md) for the conventions this repository follows.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "notifo-io--notifo-license",
+          "field": "license_model",
+          "statement": "MIT",
+          "upstream_url": "https://raw.githubusercontent.com/notifo-io/notifo/54da324ff6f4c51ca959751bdc6572e20c10a6e4/LICENSE",
+          "version_or_commit": "54da324ff6f4c51ca959751bdc6572e20c10a6e4",
+          "checked_at": "2026-11-21T21:17:16.505223+08:00",
+          "snapshot_path": "sources/snapshots/notifo-io--notifo-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "MIT License\n\nCopyright (c) 2017 Qaisar Ahmad & Sebastian Stehle\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/notifo-io--notifo-observation.json"
+    },
+    {
+      "name": "Matterbridge",
+      "repository": "42wim/matterbridge",
+      "url": "https://github.com/42wim/matterbridge",
+      "clone_url": "https://github.com/42wim/matterbridge.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:17:18.970772+08:00",
+      "version_or_commit": "c4157a4d5b49fce79c80a30730dc7c404bacd663",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/42wim/matterbridge/c4157a4d5b49fce79c80a30730dc7c404bacd663/README.md",
+          "final_url": "https://raw.githubusercontent.com/42wim/matterbridge/c4157a4d5b49fce79c80a30730dc7c404bacd663/README.md",
+          "path": "sources/snapshots/42wim--matterbridge-readme.txt",
+          "sha256": "55736507f07dbbe7097c447bd7cdd7f79dc645890b6c45ec4ed651abba5b5dd9",
+          "http_status": 200,
+          "line_count": 444,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/42wim/matterbridge/c4157a4d5b49fce79c80a30730dc7c404bacd663/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/42wim/matterbridge/c4157a4d5b49fce79c80a30730dc7c404bacd663/LICENSE",
+          "path": "sources/snapshots/42wim--matterbridge-license.txt",
+          "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08",
+          "http_status": 200,
+          "line_count": 202,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/42wim/matterbridge.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\nc4157a4d5b49fce79c80a30730dc7c404bacd663\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "42wim--matterbridge-axis-1",
+          "field": "decision_axis_1",
+          "statement": "- MatterLink (Matterbridge link for Minecraft Forge server chat, archived) - MatterCraft (Matterbridge link for Minecraft Forge server chat)",
+          "upstream_url": "https://raw.githubusercontent.com/42wim/matterbridge/c4157a4d5b49fce79c80a30730dc7c404bacd663/README.md",
+          "version_or_commit": "c4157a4d5b49fce79c80a30730dc7c404bacd663",
+          "checked_at": "2026-11-21T21:17:18.970772+08:00",
+          "snapshot_path": "sources/snapshots/42wim--matterbridge-readme.txt",
+          "line_start": 140,
+          "line_end": 141,
+          "upstream_excerpt": "- [MatterLink](https://github.com/elytra/MatterLink) (Matterbridge link for Minecraft Forge server chat, archived)\n- [MatterCraft](https://github.com/raws/mattercraft) (Matterbridge link for Minecraft Forge server chat)",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "42wim--matterbridge-axis-2",
+          "field": "decision_axis_2",
+          "statement": "- MatterLink (Matterbridge link for Minecraft Forge server chat, archived) - MatterCraft (Matterbridge link for Minecraft Forge server chat)",
+          "upstream_url": "https://raw.githubusercontent.com/42wim/matterbridge/c4157a4d5b49fce79c80a30730dc7c404bacd663/README.md",
+          "version_or_commit": "c4157a4d5b49fce79c80a30730dc7c404bacd663",
+          "checked_at": "2026-11-21T21:17:18.970772+08:00",
+          "snapshot_path": "sources/snapshots/42wim--matterbridge-readme.txt",
+          "line_start": 140,
+          "line_end": 141,
+          "upstream_excerpt": "- [MatterLink](https://github.com/elytra/MatterLink) (Matterbridge link for Minecraft Forge server chat, archived)\n- [MatterCraft](https://github.com/raws/mattercraft) (Matterbridge link for Minecraft Forge server chat)",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "42wim--matterbridge-axis-3",
+          "field": "decision_axis_3",
+          "statement": "- Configuration - Basic configuration",
+          "upstream_url": "https://raw.githubusercontent.com/42wim/matterbridge/c4157a4d5b49fce79c80a30730dc7c404bacd663/README.md",
+          "version_or_commit": "c4157a4d5b49fce79c80a30730dc7c404bacd663",
+          "checked_at": "2026-11-21T21:17:18.970772+08:00",
+          "snapshot_path": "sources/snapshots/42wim--matterbridge-readme.txt",
+          "line_start": 62,
+          "line_end": 63,
+          "upstream_excerpt": "  - [Configuration](#configuration)\n    - [Basic configuration](#basic-configuration)",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "42wim--matterbridge-license",
+          "field": "license_model",
+          "statement": "Apache-2.0",
+          "upstream_url": "https://raw.githubusercontent.com/42wim/matterbridge/c4157a4d5b49fce79c80a30730dc7c404bacd663/LICENSE",
+          "version_or_commit": "c4157a4d5b49fce79c80a30730dc7c404bacd663",
+          "checked_at": "2026-11-21T21:17:18.970772+08:00",
+          "snapshot_path": "sources/snapshots/42wim--matterbridge-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n\n      \"Licensor\" shall mean the copyright owner or entity authorized by",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/42wim--matterbridge-observation.json"
+    },
+    {
+      "name": "Alertmanager",
+      "repository": "prometheus/alertmanager",
+      "url": "https://github.com/prometheus/alertmanager",
+      "clone_url": "https://github.com/prometheus/alertmanager.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:17:19.734548+08:00",
+      "version_or_commit": "5dea4dedd70f7e770c34d33b96449ee27e5c1aae",
+      "branch_at_observation": "main",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/prometheus/alertmanager/5dea4dedd70f7e770c34d33b96449ee27e5c1aae/README.md",
+          "final_url": "https://raw.githubusercontent.com/prometheus/alertmanager/5dea4dedd70f7e770c34d33b96449ee27e5c1aae/README.md",
+          "path": "sources/snapshots/prometheus--alertmanager-readme.txt",
+          "sha256": "c8a1c9e7a1b15e5b48f193ae9a94fab151e5ab39476b916ea3cdf70debef24c7",
+          "http_status": 200,
+          "line_count": 425,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/prometheus/alertmanager/5dea4dedd70f7e770c34d33b96449ee27e5c1aae/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/prometheus/alertmanager/5dea4dedd70f7e770c34d33b96449ee27e5c1aae/LICENSE",
+          "path": "sources/snapshots/prometheus--alertmanager-license.txt",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "http_status": 200,
+          "line_count": 201,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/prometheus/alertmanager.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/main\tHEAD\n5dea4dedd70f7e770c34d33b96449ee27e5c1aae\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "prometheus--alertmanager-axis-1",
+          "field": "decision_axis_1",
+          "statement": "The Alertmanager handles alerts sent by client applications such as the Prometheus server. It takes care of deduplicating, grouping, and routing them to the correct receiver integrations such as email\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/prometheus/alertmanager/5dea4dedd70f7e770c34d33b96449ee27e5c1aae/README.md",
+          "version_or_commit": "5dea4dedd70f7e770c34d33b96449ee27e5c1aae",
+          "checked_at": "2026-11-21T21:17:19.734548+08:00",
+          "snapshot_path": "sources/snapshots/prometheus--alertmanager-readme.txt",
+          "line_start": 6,
+          "line_end": 6,
+          "upstream_excerpt": "The Alertmanager handles alerts sent by client applications such as the Prometheus server. It takes care of deduplicating, grouping, and routing them to the correct [receiver integrations](https://prometheus.io/docs/alerting/latest/configuration/#receiver) such as email, PagerDuty, OpsGenie, or many other [mechanisms](https://prometheus.io/docs/operating/integrations/#alertmanager-webhook-receiver) thanks to the webhook receiver. It also takes care of silencing and inhibition of alerts.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "prometheus--alertmanager-axis-2",
+          "field": "decision_axis_2",
+          "statement": "The Alertmanager handles alerts sent by client applications such as the Prometheus server. It takes care of deduplicating, grouping, and routing them to the correct receiver integrations such as email\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/prometheus/alertmanager/5dea4dedd70f7e770c34d33b96449ee27e5c1aae/README.md",
+          "version_or_commit": "5dea4dedd70f7e770c34d33b96449ee27e5c1aae",
+          "checked_at": "2026-11-21T21:17:19.734548+08:00",
+          "snapshot_path": "sources/snapshots/prometheus--alertmanager-readme.txt",
+          "line_start": 6,
+          "line_end": 6,
+          "upstream_excerpt": "The Alertmanager handles alerts sent by client applications such as the Prometheus server. It takes care of deduplicating, grouping, and routing them to the correct [receiver integrations](https://prometheus.io/docs/alerting/latest/configuration/#receiver) such as email, PagerDuty, OpsGenie, or many other [mechanisms](https://prometheus.io/docs/operating/integrations/#alertmanager-webhook-receiver) thanks to the webhook receiver. It also takes care of silencing and inhibition of alerts.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "prometheus--alertmanager-license",
+          "field": "license_model",
+          "statement": "Apache-2.0",
+          "upstream_url": "https://raw.githubusercontent.com/prometheus/alertmanager/5dea4dedd70f7e770c34d33b96449ee27e5c1aae/LICENSE",
+          "version_or_commit": "5dea4dedd70f7e770c34d33b96449ee27e5c1aae",
+          "checked_at": "2026-11-21T21:17:19.734548+08:00",
+          "snapshot_path": "sources/snapshots/prometheus--alertmanager-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n\n      \"Licensor\" shall mean the copyright owner or entity authorized by",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/prometheus--alertmanager-observation.json"
+    },
+    {
+      "name": "Alerta",
+      "repository": "alerta/alerta",
+      "url": "https://github.com/alerta/alerta",
+      "clone_url": "https://github.com/alerta/alerta.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:17:20.503919+08:00",
+      "version_or_commit": "4ac0106300cd428b26ad4b373cf4a78f55f6b542",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/alerta/alerta/4ac0106300cd428b26ad4b373cf4a78f55f6b542/README.md",
+          "final_url": "https://raw.githubusercontent.com/alerta/alerta/4ac0106300cd428b26ad4b373cf4a78f55f6b542/README.md",
+          "path": "sources/snapshots/alerta--alerta-readme.txt",
+          "sha256": "9db53623a0e5ba91c19e1786ae0b14216523b692ce3b94d56dece25460e3afb6",
+          "http_status": 200,
+          "line_count": 150,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/alerta/alerta/4ac0106300cd428b26ad4b373cf4a78f55f6b542/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/alerta/alerta/4ac0106300cd428b26ad4b373cf4a78f55f6b542/LICENSE",
+          "path": "sources/snapshots/alerta--alerta-license.txt",
+          "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+          "http_status": 200,
+          "line_count": 201,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/alerta/alerta.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\n4ac0106300cd428b26ad4b373cf4a78f55f6b542\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "alerta--alerta-axis-3",
+          "field": "decision_axis_3",
+          "statement": "The only mandatory dependency is MongoDB or PostgreSQL. Everything else is optional.",
+          "upstream_url": "https://raw.githubusercontent.com/alerta/alerta/4ac0106300cd428b26ad4b373cf4a78f55f6b542/README.md",
+          "version_or_commit": "4ac0106300cd428b26ad4b373cf4a78f55f6b542",
+          "checked_at": "2026-11-21T21:17:20.503919+08:00",
+          "snapshot_path": "sources/snapshots/alerta--alerta-readme.txt",
+          "line_start": 24,
+          "line_end": 24,
+          "upstream_excerpt": "The only mandatory dependency is MongoDB or PostgreSQL. Everything else is optional.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "alerta--alerta-license",
+          "field": "license_model",
+          "statement": "Apache-2.0",
+          "upstream_url": "https://raw.githubusercontent.com/alerta/alerta/4ac0106300cd428b26ad4b373cf4a78f55f6b542/LICENSE",
+          "version_or_commit": "4ac0106300cd428b26ad4b373cf4a78f55f6b542",
+          "checked_at": "2026-11-21T21:17:20.503919+08:00",
+          "snapshot_path": "sources/snapshots/alerta--alerta-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n\n      \"Licensor\" shall mean the copyright owner or entity authorized by",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/alerta--alerta-observation.json"
+    },
+    {
+      "name": "Matrix Hookshot",
+      "repository": "matrix-org/matrix-hookshot",
+      "url": "https://github.com/matrix-org/matrix-hookshot",
+      "clone_url": "https://github.com/matrix-org/matrix-hookshot.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:17:24.292779+08:00",
+      "version_or_commit": "18312dc6dda798ac158832e5d6379707364ea437",
+      "branch_at_observation": "main",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/matrix-org/matrix-hookshot/18312dc6dda798ac158832e5d6379707364ea437/README.md",
+          "final_url": "https://raw.githubusercontent.com/matrix-org/matrix-hookshot/18312dc6dda798ac158832e5d6379707364ea437/README.md",
+          "path": "sources/snapshots/matrix-org--matrix-hookshot-readme.txt",
+          "sha256": "963959b45d184feb4c3181ad1bc009fbefbffe88888bc67cc72c80f970da4775",
+          "http_status": 200,
+          "line_count": 43,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/matrix-org/matrix-hookshot/18312dc6dda798ac158832e5d6379707364ea437/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/matrix-org/matrix-hookshot/18312dc6dda798ac158832e5d6379707364ea437/LICENSE",
+          "path": "sources/snapshots/matrix-org--matrix-hookshot-license.txt",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "http_status": 200,
+          "line_count": 201,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/matrix-org/matrix-hookshot.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/main\tHEAD\n18312dc6dda798ac158832e5d6379707364ea437\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "matrix-org--matrix-hookshot-axis-1",
+          "field": "decision_axis_1",
+          "statement": "- Webhooks let you connect all kinds of services, with the ability to write rich templates using JavaScript. - No external database is required, instead using Matrix state as a persistent store.",
+          "upstream_url": "https://raw.githubusercontent.com/matrix-org/matrix-hookshot/18312dc6dda798ac158832e5d6379707364ea437/README.md",
+          "version_or_commit": "18312dc6dda798ac158832e5d6379707364ea437",
+          "checked_at": "2026-11-21T21:17:24.292779+08:00",
+          "snapshot_path": "sources/snapshots/matrix-org--matrix-hookshot-readme.txt",
+          "line_start": 11,
+          "line_end": 12,
+          "upstream_excerpt": "- [Webhooks](https://matrix-org.github.io/matrix-hookshot/latest/setup/webhooks.html) let you connect all kinds of services, with the ability to write rich templates using JavaScript.\n- **No external database** is required, instead using Matrix state as a persistent store.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "matrix-org--matrix-hookshot-axis-3",
+          "field": "decision_axis_3",
+          "statement": "- No external database is required, instead using Matrix state as a persistent store.",
+          "upstream_url": "https://raw.githubusercontent.com/matrix-org/matrix-hookshot/18312dc6dda798ac158832e5d6379707364ea437/README.md",
+          "version_or_commit": "18312dc6dda798ac158832e5d6379707364ea437",
+          "checked_at": "2026-11-21T21:17:24.292779+08:00",
+          "snapshot_path": "sources/snapshots/matrix-org--matrix-hookshot-readme.txt",
+          "line_start": 12,
+          "line_end": 12,
+          "upstream_excerpt": "- **No external database** is required, instead using Matrix state as a persistent store.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "matrix-org--matrix-hookshot-license",
+          "field": "license_model",
+          "statement": "Apache-2.0",
+          "upstream_url": "https://raw.githubusercontent.com/matrix-org/matrix-hookshot/18312dc6dda798ac158832e5d6379707364ea437/LICENSE",
+          "version_or_commit": "18312dc6dda798ac158832e5d6379707364ea437",
+          "checked_at": "2026-11-21T21:17:24.292779+08:00",
+          "snapshot_path": "sources/snapshots/matrix-org--matrix-hookshot-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n\n      \"Licensor\" shall mean the copyright owner or entity authorized by",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/matrix-org--matrix-hookshot-observation.json"
+    },
+    {
+      "name": "Gotify CLI ecosystem",
+      "repository": "gotify/cli",
+      "url": "https://github.com/gotify/cli",
+      "clone_url": "https://github.com/gotify/cli.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:17:24.212933+08:00",
+      "version_or_commit": "1a3712544653db1ca4d12bb52779be80ea152c79",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/gotify/cli/1a3712544653db1ca4d12bb52779be80ea152c79/README.md",
+          "final_url": "https://raw.githubusercontent.com/gotify/cli/1a3712544653db1ca4d12bb52779be80ea152c79/README.md",
+          "path": "sources/snapshots/gotify--cli-readme.txt",
+          "sha256": "a22d015d1c26976164fa9ed1aecfac54a7b23da655018e63c317d12e81a22148",
+          "http_status": 200,
+          "line_count": 238,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/gotify/cli/1a3712544653db1ca4d12bb52779be80ea152c79/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/gotify/cli/1a3712544653db1ca4d12bb52779be80ea152c79/LICENSE",
+          "path": "sources/snapshots/gotify--cli-license.txt",
+          "sha256": "5df0ff608e5281cbd72c7087c1f60b0ed241a627d6249b89ad9da8853c7771f7",
+          "http_status": 200,
+          "line_count": 21,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/gotify/cli.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\n1a3712544653db1ca4d12bb52779be80ea152c79\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "gotify--cli-axis-1",
+          "field": "decision_axis_1",
+          "statement": "watch and push script result changes (gotify watch \"curl http://example.com/api / jq '.data'\")",
+          "upstream_url": "https://raw.githubusercontent.com/gotify/cli/1a3712544653db1ca4d12bb52779be80ea152c79/README.md",
+          "version_or_commit": "1a3712544653db1ca4d12bb52779be80ea152c79",
+          "checked_at": "2026-11-21T21:17:24.212933+08:00",
+          "snapshot_path": "sources/snapshots/gotify--cli-readme.txt",
+          "line_start": 15,
+          "line_end": 15,
+          "upstream_excerpt": "* watch and push script result changes (`gotify watch \"curl http://example.com/api | jq '.data'\"`)",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "gotify--cli-axis-2",
+          "field": "decision_axis_2",
+          "statement": "Gotify-CLI is a command line client for pushing messages to [gotify/server][gotify/server]. It is not required to push messages. See alternatives.",
+          "upstream_url": "https://raw.githubusercontent.com/gotify/cli/1a3712544653db1ca4d12bb52779be80ea152c79/README.md",
+          "version_or_commit": "1a3712544653db1ca4d12bb52779be80ea152c79",
+          "checked_at": "2026-11-21T21:17:24.212933+08:00",
+          "snapshot_path": "sources/snapshots/gotify--cli-readme.txt",
+          "line_start": 3,
+          "line_end": 3,
+          "upstream_excerpt": "Gotify-CLI is a command line client for pushing messages to [gotify/server][gotify/server]. It is **not** required to push messages. See [alternatives](#alternatives).",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "gotify--cli-axis-3",
+          "field": "decision_axis_3",
+          "statement": "stores token/url in a config file",
+          "upstream_url": "https://raw.githubusercontent.com/gotify/cli/1a3712544653db1ca4d12bb52779be80ea152c79/README.md",
+          "version_or_commit": "1a3712544653db1ca4d12bb52779be80ea152c79",
+          "checked_at": "2026-11-21T21:17:24.212933+08:00",
+          "snapshot_path": "sources/snapshots/gotify--cli-readme.txt",
+          "line_start": 11,
+          "line_end": 11,
+          "upstream_excerpt": "* stores token/url in a config file",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "gotify--cli-license",
+          "field": "license_model",
+          "statement": "MIT",
+          "upstream_url": "https://raw.githubusercontent.com/gotify/cli/1a3712544653db1ca4d12bb52779be80ea152c79/LICENSE",
+          "version_or_commit": "1a3712544653db1ca4d12bb52779be80ea152c79",
+          "checked_at": "2026-11-21T21:17:24.212933+08:00",
+          "snapshot_path": "sources/snapshots/gotify--cli-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "MIT License\n\nCopyright (c) 2018 Gotify\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/gotify--cli-observation.json"
+    }
+  ],
+  "checked_at": "2026-11-21T21:30:03.771871+08:00",
+  "review_round": "narrow_remediation"
+}

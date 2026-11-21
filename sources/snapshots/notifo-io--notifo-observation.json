@@ -1,0 +1,38 @@
+{
+  "repository": "notifo-io/notifo",
+  "checked_at": "2026-11-21T21:17:16.505223+08:00",
+  "revision": "54da324ff6f4c51ca959751bdc6572e20c10a6e4",
+  "branch": "main",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/notifo-io/notifo.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/main\tHEAD\n54da324ff6f4c51ca959751bdc6572e20c10a6e4\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/notifo-io/notifo/54da324ff6f4c51ca959751bdc6572e20c10a6e4/README.md",
+      "final_url": "https://raw.githubusercontent.com/notifo-io/notifo/54da324ff6f4c51ca959751bdc6572e20c10a6e4/README.md",
+      "path": "sources/snapshots/notifo-io--notifo-readme.txt",
+      "sha256": "ad056a9b6bd8757b85735ce662581c5f8021b11975a02994619b22202743026b",
+      "http_status": 200,
+      "line_count": 163,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/notifo-io/notifo/54da324ff6f4c51ca959751bdc6572e20c10a6e4/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/notifo-io/notifo/54da324ff6f4c51ca959751bdc6572e20c10a6e4/LICENSE",
+      "path": "sources/snapshots/notifo-io--notifo-license.txt",
+      "sha256": "93b5ff766b2df011892d4ed661805fca4f967955e415b4572416bc9af5a7d6b1",
+      "http_status": 200,
+      "line_count": 21,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

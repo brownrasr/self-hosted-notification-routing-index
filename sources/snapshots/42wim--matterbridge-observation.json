@@ -1,0 +1,38 @@
+{
+  "repository": "42wim/matterbridge",
+  "checked_at": "2026-11-21T21:17:18.970772+08:00",
+  "revision": "c4157a4d5b49fce79c80a30730dc7c404bacd663",
+  "branch": "master",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/42wim/matterbridge.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/master\tHEAD\nc4157a4d5b49fce79c80a30730dc7c404bacd663\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/42wim/matterbridge/c4157a4d5b49fce79c80a30730dc7c404bacd663/README.md",
+      "final_url": "https://raw.githubusercontent.com/42wim/matterbridge/c4157a4d5b49fce79c80a30730dc7c404bacd663/README.md",
+      "path": "sources/snapshots/42wim--matterbridge-readme.txt",
+      "sha256": "55736507f07dbbe7097c447bd7cdd7f79dc645890b6c45ec4ed651abba5b5dd9",
+      "http_status": 200,
+      "line_count": 444,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/42wim/matterbridge/c4157a4d5b49fce79c80a30730dc7c404bacd663/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/42wim/matterbridge/c4157a4d5b49fce79c80a30730dc7c404bacd663/LICENSE",
+      "path": "sources/snapshots/42wim--matterbridge-license.txt",
+      "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08",
+      "http_status": 200,
+      "line_count": 202,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

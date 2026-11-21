@@ -1,0 +1,38 @@
+{
+  "repository": "binwiederhier/ntfy",
+  "checked_at": "2026-11-21T21:17:09.473074+08:00",
+  "revision": "18c15d706595587c45bd1e773e3f828f2ff6cf8d",
+  "branch": "main",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/binwiederhier/ntfy.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/main\tHEAD\n18c15d706595587c45bd1e773e3f828f2ff6cf8d\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/binwiederhier/ntfy/18c15d706595587c45bd1e773e3f828f2ff6cf8d/README.md",
+      "final_url": "https://raw.githubusercontent.com/binwiederhier/ntfy/18c15d706595587c45bd1e773e3f828f2ff6cf8d/README.md",
+      "path": "sources/snapshots/binwiederhier--ntfy-readme.txt",
+      "sha256": "21bf864495bb1ec5bd7c0bd6f48e95fb9f4f6dcbe2644e94197e53ab8ba4fc08",
+      "http_status": 200,
+      "line_count": 368,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/binwiederhier/ntfy/18c15d706595587c45bd1e773e3f828f2ff6cf8d/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/binwiederhier/ntfy/18c15d706595587c45bd1e773e3f828f2ff6cf8d/LICENSE",
+      "path": "sources/snapshots/binwiederhier--ntfy-license.txt",
+      "sha256": "41c6b5205cdb17128b6d003732c48e1d1cdf1080160fc8ac8dc9d992dd8dc398",
+      "http_status": 200,
+      "line_count": 201,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

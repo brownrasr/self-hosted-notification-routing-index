@@ -1,0 +1,38 @@
+{
+  "repository": "matrix-org/matrix-hookshot",
+  "checked_at": "2026-11-21T21:17:24.292779+08:00",
+  "revision": "18312dc6dda798ac158832e5d6379707364ea437",
+  "branch": "main",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/matrix-org/matrix-hookshot.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/main\tHEAD\n18312dc6dda798ac158832e5d6379707364ea437\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/matrix-org/matrix-hookshot/18312dc6dda798ac158832e5d6379707364ea437/README.md",
+      "final_url": "https://raw.githubusercontent.com/matrix-org/matrix-hookshot/18312dc6dda798ac158832e5d6379707364ea437/README.md",
+      "path": "sources/snapshots/matrix-org--matrix-hookshot-readme.txt",
+      "sha256": "963959b45d184feb4c3181ad1bc009fbefbffe88888bc67cc72c80f970da4775",
+      "http_status": 200,
+      "line_count": 43,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/matrix-org/matrix-hookshot/18312dc6dda798ac158832e5d6379707364ea437/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/matrix-org/matrix-hookshot/18312dc6dda798ac158832e5d6379707364ea437/LICENSE",
+      "path": "sources/snapshots/matrix-org--matrix-hookshot-license.txt",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "http_status": 200,
+      "line_count": 201,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

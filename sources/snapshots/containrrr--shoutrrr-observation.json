@@ -1,0 +1,38 @@
+{
+  "repository": "containrrr/shoutrrr",
+  "checked_at": "2026-11-21T21:17:14.994632+08:00",
+  "revision": "ccf81390b700948f85ce1c79f6de9ee75c68d9e5",
+  "branch": "main",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/containrrr/shoutrrr.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/main\tHEAD\nccf81390b700948f85ce1c79f6de9ee75c68d9e5\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/containrrr/shoutrrr/ccf81390b700948f85ce1c79f6de9ee75c68d9e5/README.md",
+      "final_url": "https://raw.githubusercontent.com/containrrr/shoutrrr/ccf81390b700948f85ce1c79f6de9ee75c68d9e5/README.md",
+      "path": "sources/snapshots/containrrr--shoutrrr-readme.txt",
+      "sha256": "921339c68a6c8c26430edc827e3fc68849240380d351541ca151f78827881a57",
+      "http_status": 200,
+      "line_count": 157,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/containrrr/shoutrrr/ccf81390b700948f85ce1c79f6de9ee75c68d9e5/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/containrrr/shoutrrr/ccf81390b700948f85ce1c79f6de9ee75c68d9e5/LICENSE",
+      "path": "sources/snapshots/containrrr--shoutrrr-license.txt",
+      "sha256": "909cd1d55dcb50fe7f9e386b564cae74bdb6c25fbc1e90f14af32c91fa52325d",
+      "http_status": 200,
+      "line_count": 21,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}
