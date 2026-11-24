@@ -1,8 +1,9 @@
 # Self-Hosted Notification Routing Index
 
-> **Decision:** Choose which layer owns message intake, provider fan-out, mobile delivery, user preferences, deduplication, and escalation instead of stacking overlapping routers.
 
-**For:** Operators and developers routing alerts from scripts and services to phones, browsers, chat, email, and webhooks.  
+> **Decision:** Use this index to assign intake, fan-out, mobile delivery, preferences, deduplication, and escalation to explicit notification layers; skip it if overlapping routers will be stacked without outage replay.
+>
+> **For:** operators and developers routing alerts across phones, browsers, chat, email, and webhooks  ·  **Not for:** users seeking a hosted push service ranking or an untested escalation chain
 
 This is a non-commercial, source-traceable decision guide. It normalizes upstream declarations; it does not claim that repository reachability proves functionality, security, maintenance, or fitness.
 
@@ -153,6 +154,12 @@ Write one sample event and trace its identifier through retries, grouping, rate 
 
 Event delivery, operator alerts and application notifications, not telemetry collection or campaign marketing.
 
+## Adjacent guides
+
+- [self-hosted-uptime-monitoring-map](https://github.com/RoryReeses/self-hosted-uptime-monitoring-map) — Use it when notifications originate from endpoint, heartbeat, or incident monitoring decisions.
+- [agent-observability-field-guide](https://github.com/duthdoll45/agent-observability-field-guide) — Use it when alerts originate from model, retrieval, tool, or agent traces.
+- [open-source-agent-workflow-selector](https://github.com/Rubio199321/open-source-agent-workflow-selector) — Use it when notifications are one step in a durable workflow with approvals and retries.
+
 ## Located sources and update policy
 
 [`sources.json`](sources.json) binds each cited declaration to a commit, document, exact line range and local snapshot hash. [`assets/projects.json`](assets/projects.json) holds the normalized roles and decision axes. Current HEAD reachability is recorded separately; it is not a maintenance or security assessment. Licensing is version- and directory-specific. Re-read the selected release before adoption.
@@ -165,3 +172,5 @@ python3 scripts/verify_sources.py --online
 ```
 
 These checks validate source binding, excerpts, hashes, language, the decision asset and nonempty public content. They do not certify feature behavior, migration success or restore success. No popularity score, paid placement or affiliate ranking is used. Restricted-license and historical examples are explicit contrasts, not silently recommended open-source defaults.
+
+If this saved you a decision, star the repo — it is how the next reader finds it.
