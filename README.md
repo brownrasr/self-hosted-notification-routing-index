@@ -1,6 +1,5 @@
 # Self-Hosted Notification Routing Index
 
-
 > **Decision:** Use this index to assign intake, fan-out, mobile delivery, preferences, deduplication, and escalation to explicit notification layers; skip it if overlapping routers will be stacked without outage replay.
 >
 > **For:** operators and developers routing alerts across phones, browsers, chat, email, and webhooks  ·  **Not for:** users seeking a hosted push service ranking or an untested escalation chain
@@ -10,7 +9,6 @@ This is a non-commercial, source-traceable decision guide. It normalizes upstrea
 **Start here:** [Download the delivery ownership ledger](assets/notification-delivery-map.csv) — twelve projects, located upstream evidence, and explicit unknowns.
 
 ## Choose by workload
-
 
 - Simple HTTP topics to phones and browsers: ntfy; application-token inbox with Android: Gotify.
 - Fan out to many third-party services: Apprise API or Shoutrrr.
@@ -24,13 +22,11 @@ A router cannot guarantee an external provider. Assign retry, grouping and idemp
 
 ## Event-to-recipient map
 
-
 - **Direct push servers** — ntfy and Gotify host a receiving inbox and clients; Bark Server focuses an Apple-oriented path.
 - **Provider routers** — Apprise API and Shoutrrr translate one call/configuration into third-party destinations; they do not own those providers.
 - **Alert lifecycle** — Alertmanager groups, inhibits, and routes Prometheus-style alerts; Alerta aggregates and deduplicates events into an operator console.
 - **Product notification platforms** — Novu and Notifo add users, templates, channels, and preferences—more scope than simple infrastructure alerts.
 - **Bridges** — Matterbridge relays chat networks; Matrix Hookshot maps external services/webhooks into Matrix rooms.
-
 
 ## Delivery ownership ledger
 
@@ -53,9 +49,7 @@ Values are short excerpts from the frozen upstream README, not feature-test scor
 
 ## Assemble the minimal stack
 
-
 Write one sample event and trace its identifier through retries, grouping, rate limits, destination failure, and replay. Put secrets in the narrowest layer. Avoid chaining two routers that both retry or deduplicate without stable idempotency keys; a temporary provider outage must not become a message storm.
-
 
 ## Adoption notes by project
 
